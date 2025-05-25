@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "BsYM0CEPJnEK+1FrHKPI+gNyxylZ4j4cfsjI3w6gQuI=",
+  "Source": "ApiEstoque",
+  "BasePath": "_content/ApiEstoque",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
