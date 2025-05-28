@@ -7,9 +7,9 @@ Este projeto consiste em uma API RESTful desenvolvida para a gestão de acervo d
 ## Tecnologias Utilizadas
 
 * **C#**
-* **.NET** (Provavelmente ASP.NET Core para a API)
+* **.NET**
 * **Entity Framework Core** (para acesso a dados)
-* **SQL Lite** (ou outro banco de dados configurado)
+* **SQL Lite**
 
 
 ## Endpoints da API
