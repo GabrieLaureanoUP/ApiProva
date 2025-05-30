@@ -1,5 +1,10 @@
 # ApiEstoque - Sistema de Gerenciamento de Estoque
 
+Alunos: Gabriel Laureano Soares da Silva, 38525071
+        Marcos Maues
+        João Pedro
+        Rafael Santos Correia
+
 ## Visão Geral do Projeto
 
 Este projeto consiste em uma API RESTful desenvolvida para a gestão de acervo de produtos em um estoque. O objetivo é fornecer uma interface robusta e eficiente para operações de consulta, cadastro e exclusão de itens, sendo aplicável em contextos que demandam agilidade no controle de inventário.
