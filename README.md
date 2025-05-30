@@ -1,9 +1,6 @@
 # ApiEstoque - Sistema de Gerenciamento de Estoque
 
-Alunos: Gabriel Laureano Soares da Silva(38525071),
-        \n Marcos Maues
-        João Pedro
-        Rafael Santos Correia
+Alunos: Gabriel Laureano Soares da Silva(38525071), Marcos Maues, João Pedro, Rafael Santos Correia
 
 ## Visão Geral do Projeto
 
