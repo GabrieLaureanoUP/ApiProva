@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Estoque - Relatório</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Gerenciamento de Estoque</h1>
+        <nav>
+            <a href="index.html" class="nav-btn">Listar Produtos</a>
+            <a href="cadastro.html" class="nav-btn">Cadastrar Produto</a>
+            <a href="relatorio.html" class="nav-btn active">Relatório</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="relatorio-produtos" class="section active">
+            <h2>Relatório de Estoque</h2>
+            
+            <div class="dashboard">
+                <div class="dashboard-cards">
+                    <div class="card" id="total-produtos">
+                        <h3>Total de Produtos</h3>
+                        <p class="card-value">0</p>
+                    </div>
+                    <div class="card" id="valor-estoque">
+                        <h3>Valor Total do Estoque</h3>
+                        <p class="card-value">R$ 0,00</p>
+                    </div>
+                    <div class="card" id="produto-maior-valor">
+                        <h3>Produto de Maior Valor</h3>
+                        <p class="card-value">-</p>
+                    </div>
+                    <div class="card" id="produto-menor-estoque">
+                        <h3>Produto com Menor Estoque</h3>
+                        <p class="card-value">-</p>
+                    </div>
+                </div>
+
+                <div class="dashboard-charts">
+                    <div class="chart-container">
+                        <h3>Produtos por Valor em Estoque</h3>
+                        <div class="bar-chart" id="grafico-valor-estoque"></div>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Produtos por Quantidade</h3>
+                        <div class="bar-chart" id="grafico-quantidade"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sistema de Gerenciamento de Estoque</p>
+    </footer>
+
+    <script src="js/script-relatorio.js"></script>
+</body>
+</html>

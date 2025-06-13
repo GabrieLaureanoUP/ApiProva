@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lG3NU132dynKlTKzzv3CqKTPJUnnq2u7dRe6CnFI7OA=",
+  "Hash": "bwDFXzGWPqGAL473JgQkLCYJ4xusC4PBwfmFiuhbVTU=",
   "Source": "ApiEstoque",
   "BasePath": "_content/ApiEstoque",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\cadastro.html",
+      "SourceId": "ApiEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\",
+      "BasePath": "_content/ApiEstoque",
+      "RelativePath": "cadastro.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cadastro.html"
+    },
     {
       "Identity": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\css\\styles.css",
       "SourceId": "ApiEstoque",
@@ -55,6 +74,63 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
+      "Identity": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-cadastro.js",
+      "SourceId": "ApiEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\",
+      "BasePath": "_content/ApiEstoque",
+      "RelativePath": "js/script-cadastro.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script-cadastro.js"
+    },
+    {
+      "Identity": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-lista.js",
+      "SourceId": "ApiEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\",
+      "BasePath": "_content/ApiEstoque",
+      "RelativePath": "js/script-lista.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script-lista.js"
+    },
+    {
+      "Identity": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-relatorio.js",
+      "SourceId": "ApiEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\",
+      "BasePath": "_content/ApiEstoque",
+      "RelativePath": "js/script-relatorio.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script-relatorio.js"
+    },
+    {
       "Identity": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script.js",
       "SourceId": "ApiEstoque",
       "SourceType": "Discovered",
@@ -72,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\relatorio.html",
+      "SourceId": "ApiEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\",
+      "BasePath": "_content/ApiEstoque",
+      "RelativePath": "relatorio.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\relatorio.html"
     }
   ]
 }

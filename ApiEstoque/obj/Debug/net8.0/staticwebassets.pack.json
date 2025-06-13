@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\cadastro.html",
+      "PackagePath": "staticwebassets\\cadastro.html"
+    },
+    {
       "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
@@ -9,8 +13,24 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-cadastro.js",
+      "PackagePath": "staticwebassets\\js\\script-cadastro.js"
+    },
+    {
+      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-lista.js",
+      "PackagePath": "staticwebassets\\js\\script-lista.js"
+    },
+    {
+      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-relatorio.js",
+      "PackagePath": "staticwebassets\\js\\script-relatorio.js"
+    },
+    {
       "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\relatorio.html",
+      "PackagePath": "staticwebassets\\relatorio.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ApiEstoque.Microsoft.AspNetCore.StaticWebAssets.props",
