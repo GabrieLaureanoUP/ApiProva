@@ -1,35 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\cadastro.html",
+      "Id": "C:\\Faculdade\\EntregaFinalCsharp\\ApiEstoque\\ApiEstoque\\wwwroot\\cadastro.html",
       "PackagePath": "staticwebassets\\cadastro.html"
     },
     {
-      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\css\\styles.css",
+      "Id": "C:\\Faculdade\\EntregaFinalCsharp\\ApiEstoque\\ApiEstoque\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\index.html",
+      "Id": "C:\\Faculdade\\EntregaFinalCsharp\\ApiEstoque\\ApiEstoque\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-cadastro.js",
+      "Id": "C:\\Faculdade\\EntregaFinalCsharp\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-cadastro.js",
       "PackagePath": "staticwebassets\\js\\script-cadastro.js"
     },
     {
-      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-lista.js",
+      "Id": "C:\\Faculdade\\EntregaFinalCsharp\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-lista.js",
       "PackagePath": "staticwebassets\\js\\script-lista.js"
     },
     {
-      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-relatorio.js",
+      "Id": "C:\\Faculdade\\EntregaFinalCsharp\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script-relatorio.js",
       "PackagePath": "staticwebassets\\js\\script-relatorio.js"
     },
     {
-      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script.js",
-      "PackagePath": "staticwebassets\\js\\script.js"
-    },
-    {
-      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\relatorio.html",
+      "Id": "C:\\Faculdade\\EntregaFinalCsharp\\ApiEstoque\\ApiEstoque\\wwwroot\\relatorio.html",
       "PackagePath": "staticwebassets\\relatorio.html"
     },
     {
