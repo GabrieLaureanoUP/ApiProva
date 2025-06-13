@@ -3,14 +3,13 @@ using ApiEstoque.Models;
 namespace ApiEstoque.Routes
 {
     public static class ROTA_POST
-    {
-        public static void MapPostRoutes(this WebApplication app)
+    {        public static void MapPostRoutes(this WebApplication app)
         {
-            app.MapPost("/produtos", async(Produto produto, ProdutoContext context) =>
+            app.MapPost("/api/produtos", async(Produto produto, ProdutoContext context) =>
             {
                 context.Produtos.Add(produto);                await context.SaveChangesAsync();
 
-                return Results.Created($"/produtos/{produto.Id}", produto);
+                return Results.Created($"/api/produtos/{produto.Id}", produto);
             });
         }
     }

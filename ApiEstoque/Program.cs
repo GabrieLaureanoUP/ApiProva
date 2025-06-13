@@ -2,10 +2,10 @@ using ApiEstoque.Models;
 using Microsoft.EntityFrameworkCore;
 using ApiEstoque.Routes;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configuração do banco SQLite
 builder.Services.AddDbContext<ProdutoContext>(options =>
     options.UseSqlite("Data Source=estoque.db"));
 
@@ -20,12 +20,15 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 app.UseCors("AllowAll");
+app.UseDefaultFiles(); 
+app.UseStaticFiles(); 
 
 PopularBancoDeDados(app);
 
 app.MapGetRoutes();
 app.MapPostRoutes();
 app.MapDeleteRoutes();
+app.MapPutRoutes();
 
 app.Run();
 

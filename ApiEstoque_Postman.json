@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "5e3e9d18-7f1c-4c8f-8f5d-b2a7f92f5e2a",
+		"name": "API Estoque",
+		"description": "API para gerenciamento de estoque de produtos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar Todos os Produtos",
+			"request": {
+				"method": "GET",
+				"url": {
+					"raw": "http://localhost:5000/produtos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"produtos"
+					]
+				},
+				"description": "Retorna todos os produtos do estoque"
+			},
+			"response": []
+		},
+		{
+			"name": "Obter Produto por ID",
+			"request": {
+				"method": "GET",
+				"url": {
+					"raw": "http://localhost:5000/produtos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"produtos",
+						"1"
+					]
+				},
+				"description": "Retorna um produto específico pelo ID"
+			},
+			"response": []
+		},
+		{
+			"name": "Criar Novo Produto",
+			"request": {
+				"method": "POST",
+				"url": {
+					"raw": "http://localhost:5000/produtos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"produtos"
+					]
+				},
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Produto Teste\",\n    \"quantidade\": 10,\n    \"preco\": 99.99,\n    \"descricao\": \"Descrição do produto teste\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"description": "Cria um novo produto no estoque"
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar Produto",
+			"request": {
+				"method": "PUT",
+				"url": {
+					"raw": "http://localhost:5000/produtos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"produtos",
+						"1"
+					]
+				},
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Produto Atualizado\",\n    \"quantidade\": 15,\n    \"preco\": 149.99,\n    \"descricao\": \"Descrição do produto atualizada\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"description": "Atualiza um produto existente pelo ID"
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir Produto",
+			"request": {
+				"method": "DELETE",
+				"url": {
+					"raw": "http://localhost:5000/produtos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"produtos",
+						"1"
+					]
+				},
+				"description": "Exclui um produto pelo ID"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:5000",
+			"type": "string"
+		}
+	]
+}

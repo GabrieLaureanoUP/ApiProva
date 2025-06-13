@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Faculdade\\C#\\Aulas\\Trabalho 2\\ApiEstoque\\ApiEstoque.csproj": {}
+    "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\ApiEstoque.csproj": {}
   },
   "projects": {
-    "C:\\Faculdade\\C#\\Aulas\\Trabalho 2\\ApiEstoque\\ApiEstoque.csproj": {
+    "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\ApiEstoque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Faculdade\\C#\\Aulas\\Trabalho 2\\ApiEstoque\\ApiEstoque.csproj",
+        "projectUniqueName": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\ApiEstoque.csproj",
         "projectName": "ApiEstoque",
-        "projectPath": "C:\\Faculdade\\C#\\Aulas\\Trabalho 2\\ApiEstoque\\ApiEstoque.csproj",
+        "projectPath": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\ApiEstoque.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Faculdade\\C#\\Aulas\\Trabalho 2\\ApiEstoque\\obj\\",
+        "outputPath": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,26 +37,25 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
@@ -78,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ApiEstoque.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ApiEstoque.props",
+      "PackagePath": "build\\ApiEstoque.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ApiEstoque.props",
+      "PackagePath": "buildMultiTargeting\\ApiEstoque.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ApiEstoque.props",
+      "PackagePath": "buildTransitive\\ApiEstoque.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

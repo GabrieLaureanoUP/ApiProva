@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "lG3NU132dynKlTKzzv3CqKTPJUnnq2u7dRe6CnFI7OA=",
+  "Source": "ApiEstoque",
+  "BasePath": "_content/ApiEstoque",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ApiEstoque\\wwwroot",
+      "Source": "ApiEstoque",
+      "ContentRoot": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\",
+      "BasePath": "_content/ApiEstoque",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\css\\styles.css",
+      "SourceId": "ApiEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\",
+      "BasePath": "_content/ApiEstoque",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\index.html",
+      "SourceId": "ApiEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\",
+      "BasePath": "_content/ApiEstoque",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\js\\script.js",
+      "SourceId": "ApiEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\wwwroot\\",
+      "BasePath": "_content/ApiEstoque",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ]
+}
