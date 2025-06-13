@@ -2578,11 +2578,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\ApiEstoque.csproj",
+      "projectUniqueName": "C:\\Faculdade\\EntregaFinalCsharp\\ApiEstoque\\ApiEstoque\\ApiEstoque.csproj",
       "projectName": "ApiEstoque",
-      "projectPath": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\ApiEstoque.csproj",
+      "projectPath": "C:\\Faculdade\\EntregaFinalCsharp\\ApiEstoque\\ApiEstoque\\ApiEstoque.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\obj\\",
+      "outputPath": "C:\\Faculdade\\EntregaFinalCsharp\\ApiEstoque\\ApiEstoque\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"

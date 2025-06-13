@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "utu3A+rFYcI=",
+  "dgSpecHash": "38vvskTN788=",
   "success": true,
-  "projectFilePath": "C:\\Faculdade\\C#\\ApiEstoque\\ApiEstoque\\ApiEstoque.csproj",
+  "projectFilePath": "C:\\Faculdade\\EntregaFinalCsharp\\ApiEstoque\\ApiEstoque\\ApiEstoque.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
