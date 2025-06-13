@@ -33,21 +33,17 @@ function gerarRelatorio() {
 }
 
 function atualizarCardsTotais() {
-    // Total de produtos
     document.querySelector('#total-produtos .card-value').textContent = produtos.length;
     
-    // Valor total do estoque
     const valorTotal = produtos.reduce((total, produto) => {
         return total + (produto.preco * produto.quantidade);
     }, 0);
     document.querySelector('#valor-estoque .card-value').textContent = formatarPreco(valorTotal);
     
-    // Produto de maior valor
     const produtoMaiorValor = [...produtos].sort((a, b) => b.preco - a.preco)[0];
     document.querySelector('#produto-maior-valor .card-value').textContent = 
         `${produtoMaiorValor.nome} (${formatarPreco(produtoMaiorValor.preco)})`;
     
-    // Produto com menor estoque
     const produtoMenorEstoque = [...produtos].filter(p => p.quantidade > 0).sort((a, b) => a.quantidade - b.quantidade)[0];
     
     if (produtoMenorEstoque) {
@@ -67,7 +63,6 @@ function criarGraficoValorEstoque() {
     const container = document.getElementById('grafico-valor-estoque');
     container.innerHTML = '';
     
-    // Ordenar produtos por valor total (preço * quantidade)
     const produtosOrdenados = [...produtos]
         .filter(p => p.quantidade > 0)
         .map(p => ({
@@ -75,7 +70,7 @@ function criarGraficoValorEstoque() {
             valorTotal: p.preco * p.quantidade
         }))
         .sort((a, b) => b.valorTotal - a.valorTotal)
-        .slice(0, 5); // Top 5
+        .slice(0, 5); 
     
     if (produtosOrdenados.length === 0) {
         container.innerHTML = '<p class="sem-dados">Sem dados para exibir</p>';
@@ -114,11 +109,10 @@ function criarGraficoQuantidade() {
     const container = document.getElementById('grafico-quantidade');
     container.innerHTML = '';
     
-    // Ordenar produtos por quantidade
     const produtosOrdenados = [...produtos]
         .filter(p => p.quantidade > 0)
         .sort((a, b) => b.quantidade - a.quantidade)
-        .slice(0, 5); // Top 5
+        .slice(0, 5); 
     
     if (produtosOrdenados.length === 0) {
         container.innerHTML = '<p class="sem-dados">Sem dados para exibir</p>';

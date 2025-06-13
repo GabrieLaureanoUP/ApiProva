@@ -7,7 +7,8 @@ namespace ApiEstoque.Routes
         {
             app.MapPost("/api/produtos", async(Produto produto, ProdutoContext context) =>
             {
-                context.Produtos.Add(produto);                await context.SaveChangesAsync();
+                context.Produtos.Add(produto);
+                await context.SaveChangesAsync();
 
                 return Results.Created($"/api/produtos/{produto.Id}", produto);
             });
